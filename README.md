@@ -1,3 +1,6 @@
+[Vid Demo](https://youtu.be/7y1e3CUuZHg)
+[Download directly from dist folder](https://github.com/arhiv2ch/MGO-KM/tree/main/dist)
+
 A lightweight real-time moderation tool for Metal Gear Online (MGSV - MGO) — designed to give lobby hosts basic control: see who’s in, kick unwanted players, and automatically block known offenders via a simple blacklist system.
 It runs as an external .exe, requires no injection, no patching, and doesn’t interfere with game logic or other players. It reads host-side memory only, purely for utility and moderation.
 
