@@ -35,5 +35,5 @@ This is not a cheat, and does not hook or tamper with the game engine.
 It’s a host-side tool for self-moderation — useful when playing with randoms, hosting casual matches, or dealing with cheaters/spam players in public lobbies.
 No remote code, no unfair gameplay advantage, no server manipulation. The pointers are quite stable, I expect that they will work for any user.
 
-This tool is open-source and safe to use, but since it's compiled as a standalone .exe and includes memory access (it read memory from mgsvmgo.exe) as well as simple HTTP requests (to fetch nicknames from Steam), it may trigger false positives on some antivirus scanners.
+This tool is open-source and safe to use, but since it's compiled as a standalone .exe and includes memory access (it reads memory from mgsvmgo.exe) as well as simple HTTP requests (to fetch nicknames from Steam), it may trigger false positives on some antivirus scanners.
 [VirusTotal scan here](https://www.virustotal.com/gui/file/2ca2f2e679541034f6a8c97e045e56b16f337681945d222c2df23ee1fc2c506f/detection)
