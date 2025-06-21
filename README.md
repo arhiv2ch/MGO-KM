@@ -1,15 +1,15 @@
 [Vid Demo](https://youtu.be/7y1e3CUuZHg)
 [Download directly from dist folder](https://github.com/arhiv2ch/MGO-KM/tree/main/dist)
 
-A lightweight real-time moderation tool for Metal Gear Online (MGSV - MGO) — designed to give lobby hosts basic control: see who’s in, kick unwanted players, and automatically block known offenders via a simple blacklist system.
-It runs as an external .exe, requires no injection, no patching, and doesn’t interfere with game logic or other players. It reads host-side memory only, purely for utility and moderation.
+Real-time moderation tool for Metal Gear Online (MGSV - MGO) — designed to give lobby hosts basic control: see who’s in, kick unwanted players, and automatically block known offenders with a simple blacklist system.
+It runs as an external .exe, requires no injection, no patching, and doesn’t interfere with game logic or other players.
 
 What It Does:
 See the Steam IDs and nicknames of everyone currently in your lobby. The tool reads directly from MGO's memory to find active player slots and fetches each Steam ID.
 For each Steam ID, the tool performs an HTTP request to the player’s public Steam profile and parses their current display name. This happens on demand and is cached to avoid spamming Steam servers.
 As the host, you can select any player in the list and remove them from the lobby. The tool writes directly to a known in-memory flag (KICK_OFFSET) for that player’s entity.
 You can maintain a blacklist.json file of unwanted Steam IDs. As soon as any of those players join your lobby, the tool will kick them automatically — no input needed.
-Built-in editor lets you view, format, and update your blacklist in a friendly way, including live nickname lookups for context.
+Built-in editor lets you view, format, and update your blacklist, including online nickname lookups for context.
 
 ///
 
